@@ -34,6 +34,14 @@ export default function MiniProjects() {
       demoLink: 'https://ppjfxdgrg2.app.yourware.so/',
       codeLink: '',
     },
+    {
+      id: 5,
+      title: 'Neon Glide',
+      description: 'Neon Glide is a fast-paced, neon-themed 3D obstacle dodging game built with Three.js. Navigate through a futuristic neon landscape, avoiding obstacles and achieving high scores.',
+      technologies: [],
+      demoLink: '/game',
+      codeLink: '',
+    },
   ];
 
   return (
@@ -65,7 +73,7 @@ export default function MiniProjects() {
               </div>
             )}
             
-            {(project.id === 1 || project.id === 2 || project.id === 3 || project.id === 4) ? (
+            {(project.id === 1 || project.id === 2 || project.id === 3 || project.id === 4 || project.id === 5) ? (
               <div className="flex items-center justify-center mt-8 mb-4">
                 <a 
                   href={project.demoLink} 
