@@ -1,12 +1,14 @@
 # Personal Portfolio Website
 
+View the live demo: [https://personal-website-cyan-phi-31.vercel.app/](https://personal-website-cyan-phi-31.vercel.app/)
+
 A modern, responsive personal portfolio website built with Next.js and TailwindCSS.
 
 ## Features
 
 - Responsive design with a sticky side navbar
 - Dark mode support
-- Sections for Home, About Me, Blog/Notes, AI Touches, and Contact
+- Sections for Home, About Me, Experiments (Code Snippets & Mini Projects), AI Touches, and Contact
 - Interactive elements like an "Ask Me Anything" bot and AI-generated art gallery
 - Built with Next.js App Router and TailwindCSS
 
