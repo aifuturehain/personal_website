@@ -83,6 +83,7 @@ export default function ChatbotDemo() {
             onKeyPress={(e) => e.key === 'Enter' && handleSend()}
             placeholder="Type your message here..."
             className="flex-1 p-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-primary"
+            aria-label="Chat message input"
           />
           <button 
             onClick={handleSend}

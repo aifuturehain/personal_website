@@ -28,6 +28,8 @@ export default function Navbar() {
       <button 
         onClick={() => setIsOpen(!isOpen)}
         className="fixed top-4 left-4 z-50 md:hidden bg-white dark:bg-gray-800 p-2 rounded-lg shadow-md"
+        aria-expanded={isOpen.toString()}
+        aria-label={isOpen ? 'Close menu' : 'Open menu'}
       >
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
