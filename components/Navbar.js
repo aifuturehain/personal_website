@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { FaHome, FaUser, FaEnvelope, FaBars, FaTimes, FaLightbulb, FaCode, FaFlask } from 'react-icons/fa';
+import { FaHome, FaUser, FaEnvelope, FaBars, FaTimes, FaLightbulb, FaCode, FaFlask, FaRobot } from 'react-icons/fa';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -20,6 +20,7 @@ export default function Navbar() {
   const experimentLinks = [
     { name: 'AI Art Gallery', path: '/ai-touches#gallery', icon: <FaLightbulb /> },
     { name: 'Mini Projects', path: '/experiments/projects', icon: <FaFlask /> },
+    { name: 'Website Assistant', path: '/experiments/website-assistant', icon: <FaRobot /> },
   ];
 
   return (
